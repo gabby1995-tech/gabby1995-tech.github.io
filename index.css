@@ -1,0 +1,77 @@
+body {
+  background-color: #d8e1e6;
+}
+#title {
+  background-color: #1fa9f2;
+  color: white;
+  font-size: 50px;
+  text-align: left;
+  font-family: Lucida Sans Unicode
+
+}
+#info {
+  color: black;
+  font-family: Lucida Sans Unicode;
+  font-size: 30px;
+  text-align: center;
+
+}
+
+
+
+.button {
+
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  float: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#message {
+    background-color: white;
+    border: 15px solid #5a71f2;
+    padding: 25px;
+    border-radius: 25px;
+    font-size: 60px;
+    font-family: Arial;
+    margin: 0 auto;
+    width:1000px;
+      text-align: center;
+  bottom: -50px;
+  position: relative;
+}
+
+  #message span{
+  display:inline-block;
+}
+
+
+#virgin {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+
+
+
