@@ -10,9 +10,6 @@ var currentSaying = '';
 function newQuote() {
   currentSaying = saying
 [Math.floor(Math.random() * saying.length)];
-
-
-
-
-	$('#message').html(currentSaying);
-	$('#tweetQuote').attr('href', 'https://twitter.com/intent/tweet?text='+currentSaying).attr('target', '_blank');
+$('#message').html(currentSaying);
+$('#tweetQuote').attr('href', 'https://twitter.com/intent/tweet?text='+currentSaying).attr('target', '_blank');
+}
