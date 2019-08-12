@@ -10,6 +10,7 @@ var currentSaying = '';
 function newQuote() {
   currentSaying = saying
 [Math.floor(Math.random() * saying.length)];
+}
 
 
 
