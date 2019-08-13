@@ -8,6 +8,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
     <link rel="stylesheet" type="text/css" href="index.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -17,20 +18,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css">
 
     <script src="index.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 360px)" href="index.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 361px) and (max-width: 480px)" href="index.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 481px)" href="index.css">
 </head>
 <body>
+<div class="container-fluid">
 <h1 id ="title">It's Gabs</h1>
 <br>
-<p id = "info">He goes by many names: Gabs, Gabby, Bubbles, and even Johnny Zappa. Some of these quotes may disturb you as a reader and may invoke the question to if human beings should allow 23 year old virgins to go on dates with their daughters. Tread lightly and abandon all hope ye who click the quote button below.</p>
-<img src="virgin.jpg" alt = "virgin" id = "virgin">
+<p id = "info" media="(min-width: 320px)" media="(max-width: 400px)">He goes by many names: Gabs, Gabby, Bubbles, and even Johnny Zappa. Some of these quotes may disturb you as a reader and may invoke the question to if human beings should allow 23 year old virgins to go on dates with their daughters. Tread lightly and abandon all hope ye who click the quote button below.</p>
+<img src="virgin.jpg" alt = "virgin" media="(min-width: 320px)" media="(max-width: 400px)" id = "virgin">
 <br>
 <div>
-<button class = "button" onclick = "newQuote()">Quote</button>
+<button class = "button" onclick = "newQuote()" media="(min-width: 320px)" media="(max-width: 400px)">Quote</button>
 </div>
-<div id = "message"><span>Hello</span></div>
+<div id = "message">Hello</div>
 
 
+<br>
 
-<a id="tweetQuote" class="btn btn-info" href="#">Tweet this</a>
+</div>
 </body>
 </html>
