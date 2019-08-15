@@ -19,13 +19,13 @@
   '"*Hot girl on Skype about to show Gabs her titties* Hot Girl: "Are you ready?" Gabs: "Yes!!!!!!" *Gabs starts jerking off* *Turns out the hot girl was a middle-eastern man who recorded him and blackmailed him for 1,000 bucks*',
   '"You guys ever watch the Whitezilla videos on Pornhub?"', '"Forrest Gump\'s mom was one fine looking piece of ass"',
   '"Wish I was named Chad right now. Need some love on Bumble"', '"You peasants, you\'re dealing with royalty in myself"',
-  '*Let\'s in 16 goals during hockey game* "I\'m sorry guys, I had a pregame meal of two packages of toasted ravioli, a can of Pringles, and and a large Arizona Iced Tea"',
+  '*Let\'s in 16 goals during hockey game* "I\'m sorry guys, I had a pregame meal of two packages of toasted ravioli, a can of Pringles, and a large Arizona Iced Tea"',
   '*Drives around some people on a Saturday night in high school. White girl in backseat of car makes out with 3 different dudes at the same time* Gabs:"Please brush your teeth when you get home tonight"',
   '"Yeah, I at least I don\'t shave my pubes"', '"My brother and his wife and kids are probably the whitest family living in Detroit right now"', '"*Talking to girl that may have a shot at getting with* Gabs: Yeah, I\'d say you\'re a 7 on the hotness scale. *Girls looks insulted* Gabs: What? Take that as a compliment, at least I didn\'t give you a 6.5"',
   '"I used Germ X as lube one time when I jacked off"', '"I can only shit while the shower is running"', '"Would you fuck a girl with a strap-on if you want to keep being celibate?"',
   '"I\'m gonna create a fake Prince Tinder account and see if he gets more matches than me. Let\'s see if a dead musician can get more pussy than a 23-year-old virgin"',
   '"If I\'m a virgin past age 30, I\'m going into the priesthood"', '"What\'s a cliche?"', '"Could Ray Charles hear a hot girl with huge tits walking by him?"',
-  '"Would you rather do Kirstie Alley from Cheers or Star Trek 2? I think she\'s sexier with the long ears in Star Trek"', '""'];
+  '"Would you rather do Kirstie Alley from Cheers or Star Trek 2? I think she\'s sexier with the long ears in Star Trek"',];
 
 
 
