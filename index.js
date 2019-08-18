@@ -33,3 +33,14 @@
   '"*Sitting in college communications class* Gabs: I thought women liked being called broads."',
   '*Crosses legs while sitting on bench during a 8th grade baseball game* "I\'m more of the crafty veteran on the team"',
   '"I\'m gonna play Celebration by Kool and the Gang when I lose my virginity"', '"I\'m a delicate little bear"'];
+
+
+
+function newQuote() {
+  var unique = true;
+num = Math.floor(Math.random() * saying.length - 10);
+    name = saying.splice(num,1);
+    saying.push(name);
+$('#message').html(name);
+}
+
