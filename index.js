@@ -25,15 +25,11 @@
   '"I used Germ X as lube one time when I jacked off"', '"I can only shit while the shower is running"', '"Would you fuck a girl with a strap-on if you want to keep being celibate?"',
   '"I\'m gonna create a fake Prince Tinder account and see if he gets more matches than me. Let\'s see if a dead musician can get more pussy than a 23-year-old virgin"',
   '"If I\'m a virgin past age 30, I\'m going into the priesthood"', '"What\'s a cliche?"', '"Could Ray Charles hear a hot girl with huge tits walking by him?"',
-  '"Would you rather do Kirstie Alley from Cheers or Star Trek 2? I think she\'s sexier with the long ears in Star Trek"', '""'];
-
-
-
-function newQuote() {
-  var unique = true;
-num = Math.floor(Math.random() * saying.length - 10);
-    name = saying.splice(num,1);
-    saying.push(name);
-$('#message').html(name);
-}
-
+  '"Would you rather do Kirstie Alley from Cheers or Star Trek 2? I think she\'s sexier with the long ears in Star Trek"', '"Do you have to fill out an application to become a Phish fan?"',
+  '"Yes, I really do think that Nurse Ratched is hot. I kinda like her dominating female head figure personality"', '"Can you be fat and have a six-pack?"',
+  '"Does George Bailey from It\'s a Wonderful Life have a big penis?"', '"I wonder why I\'m still a virgin"', '"I can only get off on soft-core porn at this point in my life"',
+  '"I have a lot of love to give. I\'m a delicate person"', '"Does the wife from the Honeymooner\'s like being smothered?"',
+  '"My personality fits the company culture. I\'m a very mentally stable individual"', '"I looked at my backside in the mirror this morning. I have the fattest, yet flattest ass in this county"',
+  '"*Sitting in college communications class* Gabs: I thought women liked being called broads."',
+  '*Crosses legs while sitting on bench during a 8th grade baseball game* "I\'m more of the crafty veteran on the team"',
+  '"I\'m gonna play Celebration by Kool and the Gang when I lose my virginity"', '"I\'m a delicate little bear"'];
