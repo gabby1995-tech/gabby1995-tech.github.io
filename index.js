@@ -1,6 +1,6 @@
 
 
-  var saying = [' "I hate young people, that\'s why I listen to Frank Zappa "', ' *Talking to sister* Gabs: "I almost cried at Toy Story 4" Sister: "You\'re a pussy" ', ' "Who are the Pixies?"',
+  let saying = [' "I hate young people, that\'s why I listen to Frank Zappa "', ' *Talking to sister* Gabs: "I almost cried at Toy Story 4" Sister: "You\'re a pussy" ', ' "Who are the Pixies?"',
   '*Two annoying white girls talking to each other* Girl 1: "OMG are you excited that we\'re rooming together at college this fall?" Girl 2: "Totally, what should we do when we first check into the dorms?" Gabs: "I don\'t know, Les out?"',
   '"While I am a virgin, I\'m ready for the big leagues when I get down. I\'ve probably eclipsed a 1000 hours of watching porn, which are basically training videos"' ,
   '"Does Alton have black people?"' , '*Talking to friends from Alton* Gabs: "Do you guys have indoor plumbing in Alton?"', '"I equate jerking off to a drug addiction, I\'m just trying to chase the dragon of the first ejaculation I had when I was 13"',
@@ -36,11 +36,24 @@
 
 
 
+
+
+
+
 function newQuote() {
-  var unique = true;
-num = Math.floor(Math.random() * saying.length - 10);
-    name = saying.splice(num,1);
-    saying.push(name);
-$('#message').html(name);
-}
+  let randomQuote = saying[Math.floor(Math.random()* saying.length)]
+  let usedQuotes = []; // defined an empty array for usedQuotes variable here
+  if(usedQuotes.length === saying.length){
+    usedQuotes = []
+  }
+
+  if(usedQuotes.includes(randomQuote) === false){
+    usedQuotes.push(randomQuote);
+      $('#message').html(randomQuote);
+    return randomQuote;
+  } else {
+  newQuote();
+
+  }
+};
 
